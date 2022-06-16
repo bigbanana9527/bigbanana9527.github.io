@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='zh-CN'>
 
 <head>
   <meta name="generator" content="Hexo 6.2.0">
@@ -18,16 +18,16 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
-  <title>flex布局 - Hexo</title>
+  <title>flex布局 - 博客园</title>
 
   
     <meta name="description" content="flex布局移动端应用广泛 布局原理：采用flex布局的元素，称为flex容器。它的所有子元素自动成为容器成员，称为flex项目（flex item） 总结：通过给父盒子添加flex属性，来控制其子元素的位置和排列方式 父项常见属性flex-direction: ;设置主轴方向;    属性值 说明    row 默认值，从左向右   row-reverse 从右到左   column 从上到下">
 <meta property="og:type" content="article">
 <meta property="og:title" content="flex布局">
 <meta property="og:url" content="http://example.com/2022/06/14/flex%E5%B8%83%E5%B1%80/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="博客园">
 <meta property="og:description" content="flex布局移动端应用广泛 布局原理：采用flex布局的元素，称为flex容器。它的所有子元素自动成为容器成员，称为flex项目（flex item） 总结：通过给父盒子添加flex属性，来控制其子元素的位置和排列方式 父项常见属性flex-direction: ;设置主轴方向;    属性值 说明    row 默认值，从左向右   row-reverse 从右到左   column 从上到下">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-06-14T14:49:07.000Z">
 <meta property="article:modified_time" content="2022-06-14T14:49:51.768Z">
 <meta property="article:author" content="John Doe">
@@ -62,12 +62,12 @@
 
 <header class="header">
 
-<div class="logo-wrap"><a class="title" href="/"><div class="main">Hexo</div></a></div>
-<nav class="menu dis-select"></nav></header>
+<div class="logo-wrap"><a class="title" href="/"><div class="main"><img no-lazy height="32px" src="./public/images/i.jpg"/ onerror="javascript:this.classList.add('error');this.src='https://fastly.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg';"></div></a></div>
+<nav class="menu dis-select"><a class="nav-item active" href="/">文章</a><a class="nav-item" href="/wiki/">项目</a><a class="nav-item" href="/notes/">笔记</a><a class="nav-item" href="/more/">更多</a></nav></header>
 
 <div class="widgets">
 
-<div class="widget-wrap single" id="toc"><div class="widget-header cap dis-select"><span class="name">TOC</span></div><div class="widget-body fs14"><div class="doc-tree active"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#flex%E5%B8%83%E5%B1%80"><span class="toc-text">flex布局</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%88%B6%E9%A1%B9%E5%B8%B8%E8%A7%81%E5%B1%9E%E6%80%A7"><span class="toc-text">父项常见属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#flex-direction"><span class="toc-text">flex-direction: ;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#justify-content"><span class="toc-text">justify-content: ;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#flex-wrap"><span class="toc-text">flex-wrap: ;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#align-items"><span class="toc-text">align-items: ;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#flex-flow"><span class="toc-text">flex-flow: ;</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%90%E9%A1%B9%E5%B8%B8%E8%A7%81%E5%B1%9E%E6%80%A7"><span class="toc-text">子项常见属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#flex"><span class="toc-text">flex: ;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#align-self"><span class="toc-text">align-self: ;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#order"><span class="toc-text">order: ;</span></a></li></ol></li></ol></li></ol></li></ol></div></div></div>
+<div class="widget-wrap single" id="toc"><div class="widget-header cap dis-select"><span class="name">本文目录</span></div><div class="widget-body fs14"><div class="doc-tree active"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#flex%E5%B8%83%E5%B1%80"><span class="toc-text">flex布局</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%88%B6%E9%A1%B9%E5%B8%B8%E8%A7%81%E5%B1%9E%E6%80%A7"><span class="toc-text">父项常见属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#flex-direction"><span class="toc-text">flex-direction: ;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#justify-content"><span class="toc-text">justify-content: ;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#flex-wrap"><span class="toc-text">flex-wrap: ;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#align-items"><span class="toc-text">align-items: ;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#flex-flow"><span class="toc-text">flex-flow: ;</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%90%E9%A1%B9%E5%B8%B8%E8%A7%81%E5%B1%9E%E6%80%A7"><span class="toc-text">子项常见属性</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#flex"><span class="toc-text">flex: ;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#align-self"><span class="toc-text">align-self: ;</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#order"><span class="toc-text">order: ;</span></a></li></ol></li></ol></li></ol></li></ol></div></div></div>
 
 
 </div>
@@ -79,7 +79,7 @@
 
       
 
-<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">Home</a><span class="sep"></span><a class="cap breadcrumb" href="/">Blog</a></div><div id="post-meta">Posted on&nbsp;<time datetime="2022-06-14T14:49:07.000Z">2022-06-14</time></div></div>
+<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a><span class="sep"></span><a class="cap breadcrumb" href="/">文章</a></div><div id="post-meta">发布于&nbsp;<time datetime="2022-06-14T14:49:07.000Z">2022-06-14</time></div></div>
 
 <article class='content md post'>
 <h1 class="article-title"><span>flex布局</span></h1>
@@ -224,12 +224,12 @@
 <h5 id="order"><a href="#order" class="headerlink" title="order: ;"></a>order: ;</h5><p>在不动标签的情况下，改变子项的排列顺序（数值越小越靠前）</p>
 
 
-<div class="article-footer reveal fs14"><section id="license"><div class="header"><span>License</span></div><div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
+<div class="article-footer reveal fs14"><section id="license"><div class="header"><span>许可协议</span></div><div class="body"><p>本文采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">署名-非商业性使用-相同方式共享 4.0 国际</a> 许可协议，转载请注明出处。</p>
 </div></section></div>
 
 </article>
 
-<div class="related-wrap reveal" id="read-next"><section class="header cap theme"><span>READ NEXT</span></section><section class="body fs14"><a id="next" href="/2022/06/12/hello-world/">Hello World<span class="note">Older</span></a><div class="line"></div></section></div>
+<div class="related-wrap reveal" id="read-next"><section class="header cap theme"><span>接下来阅读</span></section><section class="body fs14"><a id="next" href="/2022/06/12/hello-world/">Hello World<span class="note">较早</span></a><div class="line"></div></section></div>
 
 
 
@@ -239,8 +239,8 @@
 
 
       
-<footer class="page-footer reveal fs12"><hr><div class="text"><p>All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</p>
-<p>This site was deployed by <a href="http://example.com/">@John Doe</a> using <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.8.0" title="v1.8.0">Stellar</a>.</p>
+<footer class="page-footer reveal fs12"><hr><div class="text"><p>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
+<p>本站由 <a href="http://example.com/">@John Doe</a> 创建，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.8.0" title="v1.8.0">Stellar</a> 作为主题。</p>
 </div></footer>
 
       <div class='float-panel mobile-only blur' style='display:none'>
@@ -347,11 +347,11 @@
   stellar.github = 'https://github.com/xaoxuu/hexo-theme-stellar/tree/1.8.0';
   stellar.config = {
     date_suffix: {
-      just: 'Just',
-      min: 'minutes ago',
-      hour: 'hours ago',
-      day: 'days ago',
-      month: 'months ago',
+      just: '刚刚',
+      min: '分钟前',
+      hour: '小时前',
+      day: '天前',
+      month: '个月前',
     },
   };
 
